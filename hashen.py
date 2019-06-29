@@ -108,4 +108,4 @@ def stats():
     return jsonify(statA)
 
 if __name__ == '__main__':
-    application.run(threaded=True,debug=True,host='0.0.0.0')
+    application.run(threaded=True,debug=False,host='0.0.0.0')
